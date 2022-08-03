@@ -1,0 +1,41 @@
+.header-bg{
+    background: var(--cor-primaria);    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+}
+
+.logo{
+    padding: 10px;
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.header li a{
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+.header li a:hover{
+    color: #0097DB;
+}
+
+.login{
+    padding: 10px 30px;
+    color: var(--cor-secundaria);
+    text-transform: uppercase;
+    background-color: var(--cor-button);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login:hover{
+    background: #0097DB;
+}

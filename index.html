@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRUD</title>
+</head>
+<body>
+
+    <header class="header-bg">
+        <div class="container header">
+        <a href="#" class="logo">Cron</a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">pagina inicial</a></li>
+            </ul>            
+        </nav>
+        <a href="#" class="login">login</a>
+    </div>
+    </header>
+
+    <section class="listar container">
+
+        <h2>listar usuário</h2>
+        <div class="listar-button">
+        <a class="listar-adicionar"  href="adicionar.html">+adicionar</a>
+        </div>
+        <table class="listar-table">
+            
+            
+            <thead>
+            <tr listar-titulos>
+                <th>email</th>
+                <th>nome</th>
+                <th>usuário</th>
+                <th>ação</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>admin@cron.io</td>
+                <td>Administrador</td>
+                <td>admin</td>
+                <td><a href="editar.html"><img src="/img/edit.svg" alt=""></a> <a href="excluir"><img src="/img/delete.svg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td>admin@cron.io</td>
+                <td>Administrador</td>
+                <td>admin</td>
+                <td><a href="editar.html"><img src="/img/edit.svg" alt=""></a> <a href="excluir"><img src="/img/delete.svg" alt=""></a></td>
+            </tr>
+            <tr>
+                <td>admin@cron.io</td>
+                <td>Administrador</td>
+                <td>admin</td>
+                <td><a href="editar.html"><img src="/img/edit.svg" alt=""></a> <a href="excluir"><img src="/img/delete.svg" alt=""></a></td>
+            </tr> 
+        </tbody>           
+         </table>
+
+         <nav class="paginacao">
+            <a href="" class="first">&#171;</a>
+            <a href="" class="prev">&lt;</a>
+            <li class="numeros">
+                <a href="">1</a>
+            </li>
+            <div class="next">&gt;</div>
+            <div class="last">&#187;</div>
+         </nav>
+    </section>
+</body>
+</html>

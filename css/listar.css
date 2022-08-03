@@ -1,0 +1,80 @@
+.listar{
+    padding: 50px;
+}
+.listar h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 80px;
+}
+
+.listar-button{
+   display: flex;   
+   justify-content: flex-end;  
+}
+
+.listar-adicionar{
+    background-color: #0097DB;
+    padding: 10px 30px;    
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--cor-secundaria);
+    transition: .2s;
+}
+
+.listar-adicionar:hover{
+    background-color: #00C3FF;
+}
+
+
+
+.listar-table{
+    margin-top: 20px;    
+    border: 1px solid #0097DB;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.listar-titulos{
+    width: 100%; 
+}
+.listar-table th{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria); 
+    text-transform: uppercase; 
+    font-size: 1rem; 
+    padding: 15px 25px;
+}
+
+.listar-table td{
+    padding: 15px 25px;
+    border-bottom: 1px solid #CCFFFC;    
+}
+
+.listar-table td img{
+    width: 25px;
+    height: 25px;   
+}
+
+.listar-table td img:first-child{
+    margin-left: 15px;
+}
+
+.paginacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.first, .prev, .next, .last{
+    padding: 10px;
+}
+
+
+

@@ -1,0 +1,29 @@
+:root{
+    --cor-primaria: #005193;
+    --cor-secundaria: #f4f4f4;
+    --cor-button: #0072B7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
