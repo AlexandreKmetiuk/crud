@@ -26,7 +26,7 @@
     color: #0097DB;
 }
 
-.login{
+.header-login{
     padding: 10px 30px;
     color: var(--cor-secundaria);
     text-transform: uppercase;
@@ -36,6 +36,6 @@
     transition: .2s;
 }
 
-.login:hover{
-    background: #0097DB;
+.header-login:hover{
+    filter:brightness(1.2);
 }

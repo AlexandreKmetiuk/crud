@@ -1,4 +1,6 @@
-@import url(/css/global.css);
-@import url(/css/header.css);
-@import url(/css/listar.css);
-@import url(/css/cadastrar.css);
+@import url(../css/global.css);
+@import url(../css/header.css);
+@import url(../css/listar.css);
+@import url(../css/cadastrar.css);
+@import url(../css/editar.css);
+@import url(../css/login.css);
