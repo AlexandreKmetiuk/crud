@@ -6,6 +6,7 @@
     --color-five: #0481A4;
     --color-six: #254EDB;
     --color-seven: #DB4019;
+    --color-eight: #666666;
     --color-button: #0072B7;
     --color-button1: #4F6EDB;
     --color-border: #42EFE9;
@@ -109,6 +110,21 @@ table{
 }
 
 .first, .prev, .next, .last{
-    padding: 10px;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: var(--color-label);
+}
+
+.paginacao .first:hover, .prev:hover, .next:hover, .last:hover, .numeros a:hover{
+    color: #95D4FF;
+}
+
+
+
+.numeros.ative{
+    
+    padding: 5px 5px;
+    border-radius: 4px;
+    background-color: var(--color-three);
 }
 
