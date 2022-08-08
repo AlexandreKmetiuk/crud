@@ -1,7 +1,15 @@
 :root{
-    --cor-primaria: #005193;
-    --cor-secundaria: #f4f4f4;
-    --cor-button: #0072B7;
+    --color-first: #005193;
+    --color-second: #f4f4f4;
+    --color-three:#0097DB;
+    --color-four: #98FCE8;
+    --color-five: #0481A4;
+    --color-six: #254EDB;
+    --color-seven: #DB4019;
+    --color-button: #0072B7;
+    --color-button1: #4F6EDB;
+    --color-border: #42EFE9;
+    --color-label: #000000;
 }
 
 *{
@@ -12,6 +20,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto', serif;
 }
 
 li{
@@ -31,22 +43,72 @@ input{
     width: 100%;
     padding: 15px 15px;
     border-radius: 4px;
-    border: 1px solid #42EFE9;
-    margin-bottom: 15px;    
+    border: 1px solid var(--color-border);
+    margin-bottom: 15px; 
+    font-size: 1rem;   
 }
 
 label{
     padding: 20px 0;
     margin-bottom: 15px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h2{
     text-align: center;
     margin-top: 60px;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
+    margin-bottom: 30px;
+}
+
+table{
+    margin-top: 20px;    
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.listar-titulos{
+    width: 100%; 
+}
+
+
+
+.listar-table th{
+    background-color: var(--color-first);
+    color: var(--color-second); 
+    text-transform: uppercase; 
+    font-size: 1rem; 
+    padding: 15px 25px;
+}
+
+.listar-table td{
+    padding: 15px 25px;
+    border-bottom: 1px solid #CCFFFC;    
+}
+
+.listar-table td img{
+    width: 25px;
+    height: 25px;   
+}
+
+.listar-table td img:first-child{
+    margin-left: 15px;
+}
+
+.paginacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.first, .prev, .next, .last{
+    padding: 10px;
 }
 

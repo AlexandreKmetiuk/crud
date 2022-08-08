@@ -1,5 +1,5 @@
 .editar-form{
-    border: 1px solid #42EFE9;
+    border: 1px solid var(--color-border);
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
@@ -7,7 +7,7 @@
 }
 
 .editar-form input:last-child{
-    background-color: #9BFCE8;
+    background-color: var(--color-four);
     font-size: 1.2rem;
     margin-top: 20px;
     width: 300px;  

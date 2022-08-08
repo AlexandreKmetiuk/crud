@@ -9,20 +9,26 @@
 }
 
 .login-container{
-    width: min(40rem, 90%);
-    height: min(25rem, 90%);
-    background: #f4f4f4;
+    width: min(42rem, 90%);
+    height: min(33rem, 90%);
+    background: var(--color-second);
     margin: auto;
-    border-radius: 4px;    
-    display: flex;
+    border-radius: 4px; 
+    display: flex;   
     justify-content: center;
     align-items: center;
-    }
-
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-80px);
+}
 
 .login label{
-    color: black;
+    color: var(--color-label);
     text-transform: uppercase;
+}
+
+.login label:first-child{
+    margin-bottom: 40px;
 }
 
 .login input[type=password]{
@@ -32,7 +38,7 @@
 .login input{
     width: 400px;
     display: block;
-    margin-top: 5px;    
+    margin-top: 5px;  
 }
 
 .login-button{
@@ -42,14 +48,26 @@
 }
 
 .login input[type=button]{
-    background-color: #14237A;
+    background-color: var(--color-button1);
     text-transform: uppercase;
     transition: filter .2s;
-    color: #f4f4f4;
+    color: var(--color-second);
     width: 300px;
+    border: 0;
 }
 
 .login input[type=button]:hover{
     filter: brightness(1.2);
+}
+
+#animar{
+    animation: slider .6s forwards;
+}
+
+@keyframes slider{
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 

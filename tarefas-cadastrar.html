@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRUD</title>
+</head>
+<section class="tarefas-cadastrar">        
+        <div class="tarefas-container" id="animar">
+            <h2>Cadastrar Tarefas</h2>
+            <form class="tarefas-form" action="" method="post">
+                <label for="name">Tarefa:</label>
+                <input type="text" name="nane" id="name">
+
+                <div class="tarefas-wrapper">
+                <label for="date"></label>
+                <input type="date" name="date" id="date">
+
+                <select name="situacao" id="situacao">
+                    <option value="processo">Em Processo</option>
+                    <option value="iniciar">Iniciar</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+
+                <select name="prioridade" id="prioridade">
+                    <option value="alta">Alta</option>
+                    <option value="media">Média</option>
+                    <option value="baixa">Baixa</option>
+                </select>
+            </div>
+
+                <input class="cadastrar-button" type="button" value="Cadastrar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

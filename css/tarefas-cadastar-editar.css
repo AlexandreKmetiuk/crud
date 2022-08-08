@@ -1,0 +1,85 @@
+.tarefas-cadastrar, .tarefas-editar{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.tarefas-container, .editar-container{
+    width: min(42rem, 90%);
+    height: min(33rem, 90%);
+    background: var(--color-second);
+    margin: auto;
+    border-radius: 4px; 
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-80px);
+}
+
+.tarefas-cadastrar label, .tarefas-editar label{
+    color: var(--color-label);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.tarefas-cadastrar input, .tarefas-editar input{
+    width: 458px;
+    display: block; 
+}
+
+.tarefas-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarefas-cadastrar input[type=date], 
+.tarefas-cadastrar select, 
+.tarefas-editar input[type=date], .tarefas-editar select{
+    width: 150px;
+    padding: 15px 18px;
+    border-radius: 4px;
+    border: 1px solid var(--color-border);
+    margin: 0 4px 15px 0; 
+    outline: none;
+    font-size: .7rem;
+    text-transform: uppercase;  
+}
+
+.tarefa-button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.editar-button{
+    background-color: var(--color-seven);    
+}
+
+.cadastrar-button{
+    background-color: var(--color-six);
+}
+
+.tarefas-cadastrar input[type=button], .tarefas-editar input[type=button]{    
+    text-transform: uppercase;
+    transition: filter .2s;    
+    width: 300px;
+    color: var(--color-second);
+    font-size: 1rem;
+    border: 0;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.tarefas-cadastrar input[type=button]:hover, .tarefas-editar input[type=button]:hover{
+    filter: brightness(1.2);
+}
+
+
+

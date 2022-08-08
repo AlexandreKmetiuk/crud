@@ -1,39 +1,16 @@
-.cadastrar-form h2{
-    text-align: center;
-    margin-top: 60px;
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 300;
-}
 .cadastrar-form{
-    border: 1px solid #42EFE9;
+    border: 1px solid var(--color-border);
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
     margin-top: 80px;
 }
 
-.cadastrar-form label{
-    padding: 20px 0;
-    margin-bottom: 15px;
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.cadastrar-form input{
-    width: 100%;
-    padding: 15px 15px;
-    border-radius: 4px;
-    border: 1px solid #42EFE9;
-    margin-bottom: 15px;
-        
-}
-
 .cadastrar-form input:last-child{
-    background-color: #0481A4;
+    background-color: var(--color-five);
     font-size: 1.2rem;
     margin-top: 20px;
-    color: #F4F4F4;
+    color: var(--color-second);
     width: 300px;  
     cursor: pointer;
     border: 0; 

@@ -1,36 +1,41 @@
 .header-bg{
-    background: var(--cor-primaria);    
+    background: var(--color-first);    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;    
+    padding: 15px;    
 }
 
 .logo{
     padding: 10px;
-    color: var(--cor-secundaria);
+    color: var(--color-second);
     text-transform: uppercase;
     font-size: 2rem;
 }
 
+.header nav ul{
+    display: flex;
+}
+
 .header li a{
-    color: var(--cor-secundaria);
+    color: var(--color-second);
     text-transform: uppercase;
+    padding: 0 10px;
     transition: .2s;
 }
 
 .header li a:hover{
-    color: #0097DB;
+    color: var(--color-three);
 }
 
 .header-login{
     padding: 10px 30px;
-    color: var(--cor-secundaria);
+    color: var(--color-second);
     text-transform: uppercase;
-    background-color: var(--cor-button);
+    background-color: var(--color-button);
     border-radius: 5px;
     cursor: pointer;
     transition: .2s;

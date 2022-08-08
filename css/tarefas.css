@@ -1,0 +1,24 @@
+.tarefas-th{
+    background-color: var(--color-five);
+}
+
+.tarefas form{
+    display: flex;
+    margin: 60px auto;
+    align-items: center;    
+}
+
+.tarefas-adicionar{
+    background-color: var(--color-six);
+    padding: 10px 30px;    
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--color-second);
+    transition: filter .2s;
+}
+
+.tarefas-adicionar:hover{
+    filter:brightness(1.8);
+}
